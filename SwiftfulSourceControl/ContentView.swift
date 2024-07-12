@@ -13,11 +13,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("SUP")
-            Button("Smoke") {
-                
-            }
-            .background(Color.blue)
+            RoundedRectangle(cornerRadius: 50)
         }
         .padding()
     }
