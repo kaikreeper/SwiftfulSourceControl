@@ -18,7 +18,7 @@
  Cherry picking = Duplicating one commit from one branch to another
  Pull request = request to merge branch
  PR Merge = Merge all commits'
- PR Squash and Merge = Squash all commits into ONE and then merge ONE COMMIT        
+ PR Squash and Merge = Squash all commits into ONE and then merge ONE COMMIT
  
  COMMIT MESSAGES
  [Feature] Description of the feature
@@ -40,7 +40,7 @@ struct HomeView: View {
     @State private var title: String = " Hello"
     
     var body: some View {
-        Text("HI")
+        Text("HI3")
         Text("Screen 2")
         Text("Screen 2")
     }
