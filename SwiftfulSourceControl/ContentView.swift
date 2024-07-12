@@ -17,7 +17,7 @@ struct ContentView: View {
             Button("Smoke") {
                 
             }
-            .background(Color.red)
+            .background(Color.blue)
         }
         .padding()
     }
