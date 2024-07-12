@@ -14,6 +14,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("SUP")
+            
+            Button("Click ME") {
+                
+            }
         }
         .padding()
     }
