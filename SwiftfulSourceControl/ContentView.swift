@@ -21,7 +21,7 @@ struct ContentView: View {
             }
 
             Text("text")
-            Button("Swiftful") {
+            Button("Swiftful Thining") {
             }
             Button("Subscribe") {
                 
