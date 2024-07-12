@@ -23,6 +23,9 @@ struct ContentView: View {
             Text("text")
             Button("Swiftful") {
             }
+            Button("Subscribe") {
+                
+            }
             Text("sup")
 
         }
