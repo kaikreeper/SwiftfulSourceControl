@@ -26,6 +26,8 @@ struct HomeView: View {
     @State private var title: String = " "
 
     var body: some View {
+        Text("HI")
+        Text("Screen 2")
         Text("Screen 2")
     }
 }
