@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "bolt.fill")
+            Image(systemName: "house.fill")
                 .imageScale(.large)
                 .foregroundColor(.black)
             ZStack {
@@ -21,7 +21,7 @@ struct ContentView: View {
             }
 
             Text("text")
-            Button("Swiftful Thining") {
+            Button("Swiftful Thinking") {
             }
             Button("Subscribe lol") {
                 
