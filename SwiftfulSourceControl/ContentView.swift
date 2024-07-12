@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.black)
             RoundedRectangle(cornerRadius: 50)
+            Text("text")
         }
         .padding()
     }
