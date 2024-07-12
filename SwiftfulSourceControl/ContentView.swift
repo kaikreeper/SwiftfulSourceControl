@@ -9,28 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "house.fill")
-                .imageScale(.large)
-                .foregroundColor(.black)
-            ZStack {
-                RoundedRectangle(cornerRadius: 50)
-                RoundedRectangle(cornerRadius: 20)
-                .fill(Color.red)
-                .frame(width:200, height: 100)
+        ScrollView {
+            VStack {
+                ForEach(0..<5) { _ in
+                    Image(systemName: "globe")
+                        .font(.largeTitle)
+                        .foregroundStyle(.tint)
+                    Text("Swiftful Thinking!")
+                    
+                    Button("Subscribe now!") {
+                        
+                    }
+                }
             }
-
-            Text("text")
-            Button("Swiftful Thinking") {
-            }
-            Button("Subscribe lol") {
-                
-            }
-            Text("sup")
-            Rectangle()
-
+            .padding()
         }
-        .padding()
     }
 }
 
