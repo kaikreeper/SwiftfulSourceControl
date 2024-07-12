@@ -13,7 +13,13 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
                 .foregroundColor(.black)
-            RoundedRectangle(cornerRadius: 50)
+            ZStack {
+                RoundedRectangle(cornerRadius: 50)
+                RoundedRectangle(cornerRadius: 20)
+                .fill(Color.red)
+                .frame(width:200, height: 100)
+            }
+
             Text("text")
         }
         .padding()
