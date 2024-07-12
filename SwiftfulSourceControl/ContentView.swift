@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("SUP")
             
-            Button("Click ME") {
+            Button("Click Me!") {
                 
             }
         }
