@@ -37,7 +37,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var title: String = " Hello"
+    @State private var title: String = " Hello bro"
     
     var body: some View {
         Text("HI3")
