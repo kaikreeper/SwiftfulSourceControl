@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "heart.fill")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.black)
             RoundedRectangle(cornerRadius: 50)
         }
         .padding()
