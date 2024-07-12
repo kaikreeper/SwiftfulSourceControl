@@ -21,6 +21,9 @@ struct ContentView: View {
             }
 
             Text("text")
+            Button("Swiftful") {
+                
+            }
         }
         .padding()
     }
