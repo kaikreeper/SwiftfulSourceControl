@@ -5,6 +5,20 @@
 //  Created by Brian Hall on 7/11/24.
 //
 
+/*
+ COMMIT MESSAGES
+ [Feature] Description of the feature
+ 
+ BUG IN PRODUCTION:
+ [Patch] Description of patch
+ 
+ BUG NOT IN PRODUCTION:
+ [Bug] Description of the bug
+ 
+ MUNDANE TASKS:
+ [Clean] Description of the changes
+ */
+
 import SwiftUI
 
 struct HomeView: View {
