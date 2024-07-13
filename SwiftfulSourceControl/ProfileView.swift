@@ -14,6 +14,7 @@ struct ProfileView: View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
+//example code
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
