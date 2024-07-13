@@ -15,8 +15,6 @@ struct ProfileView: View {
     }
 }
 
-//code example
-
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()
